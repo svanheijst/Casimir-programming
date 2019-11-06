@@ -1,4 +1,4 @@
-print('This is an empty script')
+print('This is a script with the name script.py')
 
 import test
 
