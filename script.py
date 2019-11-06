@@ -1,5 +1,7 @@
 print('This is a script with the name script.py')
 
+print('Made by Sabrya van Heijst')
+
 import test
 
 Radius=float(input('Give the radius of the circle [cm]: '))
