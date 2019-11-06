@@ -1,6 +1,6 @@
 print('made by Maarten Bolhuis')
 
-print('This is a script with the name script.py')
+print('script.py also calls python.py')
 
 print('Made by Sabrya van Heijst')
 
