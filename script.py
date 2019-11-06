@@ -14,9 +14,9 @@ S = test.surface(Radius)
 
 print('A circle of radius %0.2f cm has a circumference of %0.2f cm and a surface of %0.2f cm^2' %(Radius,C,S))
 
+# plot circle
 import matplotlib.pyplot as plt
-x = np.linspace(0,11,10)
-y = 2*x
+x,y=test.polar2cart(Radius)
 fig = plt.figure()
 ax1 = fig.add_subplot(111)
 ax1.plot(x,y)
