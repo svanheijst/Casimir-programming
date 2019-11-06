@@ -11,9 +11,10 @@ def circ(r):
 	Returns: circumference"""
 	return 2*np.pi*r
 
-R=float(input('Give the radius of the circle [cm]: '))
-C=circ(R)
-print('A circle with a radius of %0.2f cm has a circumference of %0.2f cm' %(R,C))
+## used to check if the script was working
+#R=float(input('Give the radius of the circle [cm]: '))
+#C=circ(R)
+#print('A circle with a radius of %0.2f cm has a circumference of %0.2f cm' %(R,C))
 
 # surface circle
 def surface(r):
@@ -23,5 +24,6 @@ def surface(r):
 	Returns: surface"""
 	return np.pi*r**2
 
-S=surface(R)
-print('A circle with a radius of %0.2f cm has a surface of %0.2f cm^2' %(R,S))
+## used to check if the script was working
+#S=surface(R)
+#print('A circle with a radius of %0.2f cm has a surface of %0.2f cm^2' %(R,S))
