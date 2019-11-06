@@ -1,3 +1,4 @@
+#%matplotlib inline
 import numpy as np
 print('made by Maarten Bolhuis')
 
@@ -19,4 +20,4 @@ y = 2*x
 fig = plt.figure()
 ax1 = fig.add_subplot(111)
 ax1.plot(x,y)
-plt.show()
+fig.savefig('Plot')
