@@ -1,6 +1,7 @@
 import numpy as np
 
 
+# +
 def triangle_area(b,h):
     """This function calculated the area of a traingle.
     
@@ -8,8 +9,12 @@ def triangle_area(b,h):
     Returns: area"""
     return b*h/2
 
+def triangle_circ
 
-def square(s):
+
+# -
+
+def square_area(s):
     """This function calculated the area of a square.
     
     Parameters: side length of square.
