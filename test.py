@@ -28,3 +28,9 @@ def surface(r):
 ## used to check if the script was working
 #S=surface(R)
 #print('A circle with a radius of %0.2f cm has a surface of %0.2f cm^2' %(R,S))
+
+# define circle
+def polar2cart(r,theta=np.linspace(0,2*np.pi,10)):
+    x=r*np.cos(theta)
+    y=r*np.sin(theta)
+    return x, y
