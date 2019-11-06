@@ -1,3 +1,5 @@
+print('made by Maarten Bolhuis')
+
 print('This is a script with the name script.py')
 
 print('Made by Sabrya van Heijst')
